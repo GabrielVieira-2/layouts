@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-size: 40px;
+}
+nav {
+    width: 20%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 20%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    flex: 1;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    height: 15%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

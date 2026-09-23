@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 38px;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height: 70%;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+height: 15%;
+    width: 100%;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+
